@@ -1,6 +1,6 @@
 # air-pollution-hotspots-pm10-pm25
 Geospatial analysis identifying PM10 and PM2.5 air pollution hotspots using QGIS and EXCEL based on spatial interpolation and hotspot detection techniques.
-This project maps and analyzes PM10 and PM2.5 air pollution levels across [YOUR CITY/REGION NAME] to identify pollution hotspots. Raw monitoring station data was extracted, cleaned in Excel, and then processed and visualized in QGIS using spatial interpolation and hotspot analysis techniques. The final output highlights zones with the highest particulate matter concentration, supporting environmental awareness and public health planning.
+This project maps and analyzes PM10 and PM2.5 air pollution levels across jharkhand to identify pollution hotspots. Raw monitoring station data was extracted, cleaned in Excel, and then processed and visualized in QGIS using spatial interpolation and hotspot analysis techniques. The final output highlights zones with the highest particulate matter concentration, supporting environmental awareness and public health planning.
 
 
  Objectives
@@ -20,9 +20,7 @@ air-pollution-hotspots-pm10-pm25/
 ├── maps/
 │   ├── pm10_hotspots.png
 │   └── pm25_hotspots.png
-├── scripts/                    # (Optional) Python scripts used for automation
-├── README.md
-└── .gitignore
+
 
 
  Data Source
@@ -31,7 +29,7 @@ air-pollution-hotspots-pm10-pm25/
 Source: CPCB (Central Pollution Control Board), state pollution monitoring stations
 Parameters used: PM10 (µg/m³), PM2.5 (µg/m³)
 Spatial coverage: 1000 monitoring stations across Jharkhan
-Format received: [CSV / Excel / API export]
+Format received: CSV
 
 
 
